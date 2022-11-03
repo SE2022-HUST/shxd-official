@@ -1,0 +1,24 @@
+.ban_bkg {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.ban_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ban_header {
+    font-size: 50px;
+}
+
+.ban_text{
+    font-size: 20px;
+}
+
+/* .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
