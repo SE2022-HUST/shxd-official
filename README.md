@@ -1,2 +1,2 @@
-# shxd-official
-Official Web of SHXD
+# 🚀 Official Web of Team SHXD
+
