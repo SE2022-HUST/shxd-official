@@ -1,0 +1,13 @@
+.picture{
+    width: 121px;
+    height: 121px;
+    border-radius: 60px;
+}
+
+.container{
+    text-align: center;
+}
+
+.name{
+    font-size: 25px;
+}
