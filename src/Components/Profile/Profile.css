@@ -1,0 +1,20 @@
+.person{
+    background-color: white;
+    width: 214px;
+    height: 88.5px;
+}
+
+.avatar{
+    width: 269px;
+    height: 323px;
+}
+
+.name,.intro{
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.container{
+    justify-content: center;
+}
