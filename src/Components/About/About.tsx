@@ -20,7 +20,7 @@ export default function About () {
     list.push(new OptionTypeC({
         name:"祁祺",
         description:"前端",
-        imgUrl:"dlj2.jpg"
+        imgUrl:"qq.jpg"
     }));
     list.push(new OptionTypeC({
         name:"靳骐睿",
