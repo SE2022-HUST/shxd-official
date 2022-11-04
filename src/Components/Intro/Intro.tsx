@@ -14,7 +14,7 @@ export default function Intro () {
 
     // todo:    把这个改成list.map的形式(最好)实在不行就复制这个结构
     return (
-        <div className='content'>
+        <div className='introContainer'>
             <div>
                 <div className='start'>开始！</div>
                 <div className='offer'>提供多种视频编辑渲染功能，弥补只能制作图片的不足、保护您的隐私！</div>
