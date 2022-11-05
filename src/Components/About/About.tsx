@@ -10,7 +10,7 @@ export default function About () {
     list.push(new OptionTypeC({
         name:"董玲晶",
         description:"后端",
-        imgUrl:"dlj.jpg"
+        imgUrl:"dlj2.jpg"
     }));
     list.push(new OptionTypeC({
         name:"陈梁子豪",
