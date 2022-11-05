@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import {OptionType,OptionTypeC}from "../../type/OptionType"
+import { OptionType, OptionTypeC } from "../../type/OptionType"
 import Profile from "../Profile/Profile"
 
 // 记得导入css
@@ -10,22 +10,22 @@ export default function About () {
     list.push(new OptionTypeC({
         name:"董玲晶",
         description:"后端",
-        imgUrl:"../../Image/dlj.jpg"
+        imgUrl:"dlj.jpg"
     }));
     list.push(new OptionTypeC({
         name:"陈梁子豪",
         description:"前端",
-        imgUrl:"../../Image/dlj.jpg"
+        imgUrl:"clzh.jpg"
     }));
     list.push(new OptionTypeC({
         name:"祁祺",
         description:"前端",
-        imgUrl:"../../Image/dlj.jpg"
+        imgUrl:"qq.jpg"
     }));
     list.push(new OptionTypeC({
         name:"靳骐睿",
         description:"后端",
-        imgUrl:"../../Image/dlj.jpg"
+        imgUrl:"jqr.jpg"
     }));
 
     return (
@@ -37,12 +37,13 @@ export default function About () {
                 <div className='line3'>​我们制作的软件包含web界面和移动设备浏览界面，是一个AI视频处理工具</div>
             </div>
             <section className='figure'>
-                {list.map(item=>
+                {list.map(item =>
                     <Profile
-                            imgUrl={item.imgUrl}
-                            name={item.name}
-                            description={item.description}></Profile>)}
-</section>
+                        key={item.name}
+                        imgUrl={item.imgUrl}
+                        name={item.name}
+                        description={item.description} />)}
+            </section>
         </div>
     )
 }
