@@ -1,14 +1,13 @@
 .person{
     background-color: white;
     width: 15%;
-    height: 7%;
+    height: 10%;
     position: absolute;
     margin-left: 8%;
     margin-top: 15%;
-    padding-bottom: 110px;
+    padding-bottom: 1%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .avatar{
@@ -17,10 +16,16 @@
     position: relative;
 }
 
-.name,.intro{
-    padding-top: 10px;
+.name{
+    font-size: 20px;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 5%;
+}
+
+.intro{
+    font-size: 16px;
+    text-align: left;
+    padding-left: 5%;
 }
 
 .container{
