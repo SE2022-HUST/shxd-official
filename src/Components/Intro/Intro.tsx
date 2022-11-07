@@ -26,6 +26,7 @@ export default function Intro () {
             <div>
                 <div className='start'>开始！</div>
                 <div className='offer'>提供多种视频编辑渲染功能，弥补只能制作图片的不足、保护您的隐私！</div>
+                <div className='offer'>更多功能，请前往<a color='white' href='https://github.com/SE2022-HUST/shxd-client/releases'><strong>最新release版本软件</strong></a>下载了解☆</div>
             </div>
             <section className='list' style={{display:'flex',justifyContent:'space-around'}}>
                 { list.map(item=>
