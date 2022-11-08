@@ -2,6 +2,7 @@ import React from 'react'
 import "./Intro.css"
 import {OptionType,OptionTypeC}from "../../type/OptionType"
 import Option from "../Option/Option"
+import SwipeSlider from "../SwipeSlide/SwipeSlide"
 
 export default function Intro () {
     let list = []

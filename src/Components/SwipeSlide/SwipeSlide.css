@@ -1,0 +1,29 @@
+.stage {
+    display: block;
+    width: 50%;
+    height: 416px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    overflow: hidden;
+}
+
+.pictures::-webkit-scrollbar {
+    display: none;
+}
+
+.pictures {
+    display: block;
+    overflow:scroll;
+    transition: transform 0.3s ease;
+    transform: translateX(100px);
+}
+
+.pictures img{
+    display:block;
+    float: left;
+    height: 416px;
+}
+
+
+
