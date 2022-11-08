@@ -2,6 +2,7 @@ import React from 'react'
 import "./Intro.css"
 import {OptionType,OptionTypeC}from "../../type/OptionType"
 import Option from "../Option/Option"
+import SwipeSlide from "../SwipeSlide/SwipeSlide"
 
 export default function Intro () {
     let list = []
@@ -37,6 +38,7 @@ export default function Intro () {
                         description={item.description}
                     />)
                 }
+            <SwipeSlide/>
             </section>
         </div>
     );
