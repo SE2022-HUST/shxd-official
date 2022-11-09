@@ -1,37 +1,37 @@
 .ban_bkg {
-    width: 100%;
-    position: relative;
-    z-index: -1;
+  width: 100%;
+  position: relative;
+  z-index: -1;
 }
 
 .ban_content {
-    background-image:url(../../Image/bkg.png) ;
-    background-color: rgba(226, 232, 238, 0.396);
-    width: 100%;
-    height: 740px;
-    background-size:cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-image: url(../../Image/bkg.png);
+  background-color: rgba(226, 232, 238, 0.396);
+  width: 100%;
+  height: 740px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .ban_header1 {
-    padding-top: 10%;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 150px;
-    color:white
+  padding-top: 10%;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 150px;
+  color: white;
 }
 .ban_header2 {
-    padding-top: 0;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 150px;
-    color:white
+  padding-top: 0;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 150px;
+  color: white;
 }
-.ban_text{
-    font-size: 20px;
-    line-height: 1.25em;
-    color:white
+.ban_text {
+  font-size: 20px;
+  line-height: 1.25em;
+  color: white;
 }
 
 /* .banner {
@@ -39,3 +39,20 @@
     flex-direction: column;
     align-items: center;
 } */
+
+.repo-link {
+  color: white;
+  margin-top: 1rem;
+}
+
+.repo-link a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.repo-link a:-webkit-any-link:hover {
+  color: rgb(148, 148, 148);
+  cursor: pointer;
+  text-decoration: underline;
+}
